@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Enter Topic</title>
+</head>
+<body>
+<form th:action="@{/generateBlog}" method="post">
+    <label for="topic">Enter Topic:</label>
+    <input type="text" id="topic" name="topic">
+    <button type="submit">Generate Blog</button>
+</form>
+</body>
+</html>
